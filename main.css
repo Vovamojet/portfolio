@@ -85,10 +85,11 @@ h6 {
 
 html {
     scroll-behavior: smooth;
-    background: #0f2f56;
 }
 
 body {
+    background: #0f2f56;
+    
     max-width: 1440px;
     margin: 0 auto;
 } 
