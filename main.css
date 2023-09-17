@@ -81,7 +81,8 @@ h6 {
 
 
 
-  /* ==================================== */
+/* <!-- =========================================== --> */
+
 
 html {
     scroll-behavior: smooth;
@@ -89,10 +90,14 @@ html {
 
 body {
     background: #0f2f56;
-    
+    width: 100%; 
     max-width: 1440px;
     margin: 0 auto;
 } 
+
+
+/* <!-- ==================HEADER===================== --> */
+
 
 header {
     box-shadow: 25px 0px 40px rgba(0, 0, 0, 0.5),
@@ -284,7 +289,6 @@ main {
 .box-css {
 	position: relative;
 	width: 350px;
-    height: 350px;
     background: #07203F;
 
 	padding: 5px 10px;
@@ -303,7 +307,6 @@ main {
 .box-js {
 	position: relative;
 	width: 350px;
-    height: 350px;
     background: #07203F;
 
 	padding: 5px 10px;
@@ -395,12 +398,6 @@ main {
     gap: 130px;
 }
 
-.box-content-project-right {
-    display: flex;
-    flex-direction: row;
-    gap: 130px;
-}
-
 /* <!-- ==================CONTACTS===================== --> */
 
 .container-contacts {
@@ -408,8 +405,8 @@ main {
     flex-direction: column;
     background: url(https://img.freepik.com/free-vector/abstract-paper-style-background_23-2150741117.jpg?w=1380&t=st=1694461480~exp=1694462080~hmac=878f1a29e170eed2ac8ea1f5ea49600eeaab076bf4842650bcfda00d5e4e3f3f) no-repeat;
     background-size: cover;
-    padding: 135px 135px 180px 135px;
-    gap: 60px;
+    padding: 80px 120px 100px 80px;
+    gap: 65px;
 
 }
 
@@ -421,14 +418,13 @@ main {
 }
 
 .box-contatcs {
-    padding: 10% 3%;
+    padding: 7% 2%;
 
     display: flex;
     flex-direction: column;
     gap: 25px;
     background-color: #07203F;
     width: 350px;
-    height: 350px;
 
     text-align: center;
     text-transform: uppercase;
@@ -477,12 +473,429 @@ footer {
 
 .container-footer {
     background-color: #07203F;
-    border-bottom: 1px solid white;
+    color: #fff;
 
+    padding: 55px 135px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
-    padding: 55px 135px;
-    color: #fff;
 }
+
+
+/* <!-- ==================SIZING===================== --> */
+
+/* <!-- ==================1400px===================== --> */
+
+
+@media (max-width: 1400px) {
+
+    /* header  */
+
+    .container-header {
+        padding: 40px 100px;
+    }
+    
+    .nickname {
+        font-size: 30px;
+    }
+    
+    .nav a {
+        font-size: 30px;
+    }
+
+    /* about  */
+
+    .container-about {
+        padding: 100px 110px 100px 110px;
+        gap: 40px;
+    }
+
+    .about-left {
+        gap: 20px;
+    }
+
+    .header-about {
+        font-size: 40px;
+    }
+
+    .photo {
+        width: 450px;
+        height: 450px;
+    }
+
+    .button-about {
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    .box-html {
+        position: relative;
+        width: 280px;
+        height: 280px;
+        background: #07203F;
+    
+        padding: 5px 10px;
+    }
+
+    .box-css {
+        position: relative;
+        width: 280px;
+        background: #07203F;
+    
+        padding: 5px 10px;
+    }
+    
+    .box-js {
+        position: relative;
+        width: 280px;
+        background: #07203F;
+    
+        padding: 5px 10px;
+    }
+
+    .project-pic {
+        position: relative;
+        width: 350px;
+        box-shadow: -40px 20px 16px black;
+    }
+    
+    .project-pic img {
+        padding-right: 0;
+    }
+
+    .cont-contacts {
+        gap: 15px;
+    }
+
+    .box-contatcs {
+        padding: 5% 1%;
+        gap: 30px;
+        width: 300px;
+        font-size: 40px;
+    }
+}    
+
+/* <!-- ==================1400px===================== --> */
+
+
+@media (max-width: 1400px) {
+
+    /* header  */
+
+    .container-header {
+        padding: 40px 100px;
+    }
+    
+    .nickname {
+        font-size: 30px;
+    }
+    
+    .nav a {
+        font-size: 30px;
+    }
+
+    /* about  */
+
+    .container-about {
+        padding: 100px 110px 100px 110px;
+        gap: 40px;
+    }
+
+    .about-left {
+        gap: 20px;
+    }
+
+    .header-about {
+        font-size: 40px;
+    }
+
+    .photo {
+        width: 450px;
+        height: 450px;
+    }
+
+    .button-about {
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    .box-html {
+        position: relative;
+        width: 280px;
+        height: 280px;
+        background: #07203F;
+    
+        padding: 5px 10px;
+    }
+
+    .box-css {
+        position: relative;
+        width: 280px;
+        background: #07203F;
+    
+        padding: 5px 10px;
+    }
+    
+    .box-js {
+        position: relative;
+        width: 280px;
+        background: #07203F;
+    
+        padding: 5px 10px;
+    }
+
+    .project-pic {
+        position: relative;
+        width: 350px;
+        box-shadow: -40px 20px 16px black;
+    }
+    
+    .project-pic img {
+        padding-right: 0;
+    }
+
+    .cont-contacts {
+        gap: 15px;
+    }
+
+    .box-contatcs {
+        padding: 5% 1%;
+        gap: 30px;
+        width: 300px;
+        font-size: 40px;
+    }
+}    
+
+/* <!-- ==================1200px===================== --> */
+
+
+@media (max-width: 1200px) {
+
+    /* header  */
+
+    .container-header {
+        padding: 40px 60px;
+    }
+    
+    .nav ul {
+        gap: 25px;
+    }
+
+    /* about  */
+
+    .container-about {
+        padding: 100px 60px 100px 60px;
+        gap: 40px;
+    }
+
+    .header-about {
+        font-size: 40px;
+    }
+
+    .photo {
+        width: 350px;
+        height: 350px;
+    }
+
+    .button-about {
+        width: 80%;
+        padding: 15px;
+        font-size: 25px;
+    }
+
+    /* skills  */
+
+    .box-html {
+        position: relative;
+        width: 230px;
+        height: 230px;
+        background: #07203F;
+    
+        padding: 5px 10px;
+    }
+
+    .box-css {
+        position: relative;
+        width: 230px;
+        background: #07203F;
+    
+        padding: 5px 10px;
+    }
+    
+    .box-js {
+        position: relative;
+        width: 230px;
+        background: #07203F;
+    
+        padding: 5px 10px;
+    }
+
+    .text-skills {
+        font-size: 45px;
+    }
+
+    .container-skills {
+        padding: 70px 60px 100px 60px;
+        gap: 46px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-text-skills {
+        font-size: 60px;
+    }
+    
+    /* projects  */
+
+    .container-projects {
+        padding: 70px 60px 100px 60px;
+        gap: 40px;
+    }
+
+    .header-text-myprojects {
+        font-size: 60px;
+        margin-bottom: 40px;
+    }
+
+    .box-content-project-right {
+        gap: 100px;
+    }
+    
+    .box-content-project-left {
+        gap: 100px;
+    }
+
+    .project-description-header {
+        font-size: 40px;
+    }
+    
+    .project-description-text {
+        font-size: 30px;
+    }
+
+    /* contacts  */
+
+    .container-contacts {
+        padding: 70px 60px 100px 60px;
+        gap: 50px;
+    
+    }
+    
+    .cont-contacts {
+        gap: 40px;
+    }
+
+    /* footer  */
+
+    .container-footer {
+        padding: 40px 60px;
+    }
+
+}
+    
+
+
+/* <!-- ==================950px===================== --> */
+
+@media (max-width: 950px) {
+
+/* header */
+
+.container-header {
+    padding: 20px 60px;
+}
+
+.nickname {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* about */
+
+.container-about {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    padding: 40px 60px;
+    gap: 46px;
+}
+
+.about-left {
+    margin-top: 15px;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-about-div {
+    display: block;
+    text-align: justify;
+    margin-right: 0;
+}
+
+/* projects */
+
+.project-pic {
+	width: 230px;
+    height: 230px;
+}
+
+.project-description {
+    padding: 0 0;
+}
+
+/* contacts  */
+
+.cont-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+
+.box-contatcs {
+    padding: 20px 0;
+    gap: 30px;
+    width: 250px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.button-box-contacts {
+    padding: 0;
+    font-size: 4px;
+    font-weight: 400;
+}
+
+.box-contatcs:first-child {
+    position: relative;
+    margin-bottom: -5%;
+    margin-right: 50%;
+    z-index: 0;
+}
+
+.box-contatcs:nth-child(2) {
+    position: relative;
+    margin-bottom: -5%;
+    z-index: 1;
+}
+
+.box-contatcs:last-child {
+    position: relative;
+    margin-bottom: -5%;
+    margin-left: 50%;
+    z-index: 2;
+}
+
+}
+
