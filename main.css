@@ -842,6 +842,12 @@ footer {
     margin-right: 0;
 }
 
+/* skills */
+
+.box-content-skills {
+    gap: 5%;
+}
+
 /* projects */
 
 .project-pic {
@@ -899,3 +905,28 @@ footer {
 
 }
 
+/* <!-- ==================820px===================== --> */
+
+@media (max-width: 950px) {
+
+    .header-text-myprojects {
+        font-size: 40px;
+    }
+
+    .box-content-project-right {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .box-content-project-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .project-pic {
+    }
+
+}
